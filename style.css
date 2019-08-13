@@ -1,0 +1,141 @@
+/* Background color of the website */
+body {
+    background: linear-gradient(to bottom,  rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%);
+    font-family: 'Lexend Exa', sans-serif;
+}
+/* Alligning navigation buttons */
+ul li {
+    display:inline;  
+    margin-left:5rem;
+    font-size: 2rem;
+    margin:0.4rem;
+    border-radius: 20px 20px;
+    text-align:center;
+   
+}
+/* link text color */
+a {
+    color:white;
+}
+/* setting the padding attribute for the navigation bar container */
+.title {
+    padding-left:28%;
+}
+/* Header style */
+h1 {
+    text-align:center;
+    font-size: 6rem;
+    color:white;
+}
+/* Map img positioning */
+img {
+    padding-top:5%;
+    padding-left:35%;
+}
+/* Hover effect for navigation buttons */
+ul li :hover {
+    color:rgba(169,228,247,1);
+    background-color:white;
+    border:3px solid white;
+    border-radius: 20px 20px;
+    transition: 0.2s;
+}
+/* Support for mobile devices 720p  */
+@media only screen and (max-width: 720px) {
+    .title {
+        padding-left:0%;
+    }
+    h1 {
+        text-align:center;
+        padding-left:10%;
+        width:80%;
+        font-size:4rem;
+    }
+    img {
+        padding-top:15%;
+        padding-left:1%;
+        width:90%;
+    }
+    ul li {
+        display:inline;
+        font-size: 1.1rem;
+        margin:0.3rem;
+        border:2px  white;
+        border-radius: 20px 20px;
+        text-align:center;
+       
+    }
+}
+/* Support for mobile devices 480p  */
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size:2rem;
+    }
+}
+/* Support for mobile devices 750p  */
+@media only screen and (max-width: 750px) {
+    h1 {
+        font-size:4rem;
+    }
+    .title {
+        padding-left:0%;
+    }
+    ul li {
+        display:inline;
+        font-size: 1.5rem;
+        margin:0.3rem;
+        border:2px  white;
+        border-radius: 20px 20px;
+        text-align:center;
+       
+    }
+    img {
+        padding-top:15%;
+        padding-left:1%;
+        width:90%;
+    }
+}
+/* Support for mobile devices 1080p  */
+@media only screen and (max-width: 1080px) {
+    h1 {
+        font-size:4rem;
+    }
+    .title {
+        padding-left:0%;
+    }
+    ul li {
+        display:inline;
+        font-size: 2rem;
+        margin:0.3rem;
+        border:2px  white;
+        border-radius: 20px 20px;
+        text-align:center;
+       
+    }
+    img {
+        padding-top:10%;
+        padding-left:4%;
+        width:90%;
+    }
+}
+/* Support for mobile devices 1200p  */
+@media only screen and (max-width: 1200px) {
+    .title {
+        padding-left:5%;
+    }
+    ul li {
+        margin-left:2rem;
+        display:inline;
+        font-size: 2rem;
+        margin:0.3rem;
+        border:2px  white;
+        border-radius: 20px 20px;
+        text-align:center;
+       
+    }
+    img {
+        padding-top:10%;
+        padding-left:10%;
+        width:80%;
+    }
+}
